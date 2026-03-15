@@ -1,0 +1,26 @@
+[
+  {
+    "exp_name": "baseline",
+    "attack_acc": 0.4885,
+    "attack_auc": 0.47761450000000005,
+    "epsilon": null
+  },
+  {
+    "exp_name": "dp_noise0.5",
+    "attack_acc": 0.4945,
+    "attack_auc": 0.4807159999999999,
+    "epsilon": 3.52
+  },
+  {
+    "exp_name": "dp_noise1.0",
+    "attack_acc": 0.517,
+    "attack_auc": 0.512306,
+    "epsilon": 0.24
+  },
+  {
+    "exp_name": "dp_noise1.5",
+    "attack_acc": 0.515,
+    "attack_auc": 0.49961099999999997,
+    "epsilon": 0.13
+  }
+]
