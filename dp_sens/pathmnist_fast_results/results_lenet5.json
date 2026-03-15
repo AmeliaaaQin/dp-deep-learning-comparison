@@ -1,0 +1,290 @@
+[
+  {
+    "model": "LeNet5",
+    "condition": "baseline",
+    "protect": "none",
+    "params": {},
+    "final_acc": 0.8099,
+    "best_acc": 0.8308,
+    "acc_curve": [
+      0.6421,
+      0.7064,
+      0.7401,
+      0.7798,
+      0.811,
+      0.7571,
+      0.7795,
+      0.7581,
+      0.8175,
+      0.8308,
+      0.8032,
+      0.8128,
+      0.8269,
+      0.8258,
+      0.8099
+    ],
+    "epsilon": null,
+    "train_time": 9003.4
+  },
+  {
+    "model": "LeNet5",
+    "condition": "laplace_eps5",
+    "protect": "laplace",
+    "params": {
+      "epsilon": 5.0
+    },
+    "final_acc": 0.4376,
+    "best_acc": 0.5486,
+    "acc_curve": [
+      0.5046,
+      0.504,
+      0.5063,
+      0.5058,
+      0.5486,
+      0.5344,
+      0.5075,
+      0.4993,
+      0.5166,
+      0.4755,
+      0.4993,
+      0.4728,
+      0.4696,
+      0.4645,
+      0.4376
+    ],
+    "epsilon": null,
+    "train_time": 699.1
+  },
+  {
+    "model": "LeNet5",
+    "condition": "laplace_eps2",
+    "protect": "laplace",
+    "params": {
+      "epsilon": 2.0
+    },
+    "final_acc": 0.283,
+    "best_acc": 0.5336,
+    "acc_curve": [
+      0.4244,
+      0.4873,
+      0.5336,
+      0.5329,
+      0.4728,
+      0.4359,
+      0.4113,
+      0.4407,
+      0.3032,
+      0.3256,
+      0.3195,
+      0.3079,
+      0.3022,
+      0.2819,
+      0.283
+    ],
+    "epsilon": null,
+    "train_time": 889.9
+  },
+  {
+    "model": "LeNet5",
+    "condition": "laplace_eps1",
+    "protect": "laplace",
+    "params": {
+      "epsilon": 1.0
+    },
+    "final_acc": 0.2877,
+    "best_acc": 0.5552,
+    "acc_curve": [
+      0.5325,
+      0.5552,
+      0.551,
+      0.5153,
+      0.5177,
+      0.515,
+      0.4178,
+      0.3737,
+      0.349,
+      0.345,
+      0.3237,
+      0.3019,
+      0.327,
+      0.2922,
+      0.2877
+    ],
+    "epsilon": null,
+    "train_time": 724.8
+  },
+  {
+    "model": "LeNet5",
+    "condition": "gaussian_eps5",
+    "protect": "gaussian",
+    "params": {
+      "epsilon": 5.0
+    },
+    "final_acc": 0.3994,
+    "best_acc": 0.5596,
+    "acc_curve": [
+      0.507,
+      0.5333,
+      0.5351,
+      0.5315,
+      0.5596,
+      0.5517,
+      0.5283,
+      0.5361,
+      0.5468,
+      0.5201,
+      0.5022,
+      0.5266,
+      0.4643,
+      0.4734,
+      0.3994
+    ],
+    "epsilon": null,
+    "train_time": 587.1
+  },
+  {
+    "model": "LeNet5",
+    "condition": "gaussian_eps2",
+    "protect": "gaussian",
+    "params": {
+      "epsilon": 2.0
+    },
+    "final_acc": 0.2213,
+    "best_acc": 0.3497,
+    "acc_curve": [
+      0.3276,
+      0.3497,
+      0.3478,
+      0.2235,
+      0.2457,
+      0.2528,
+      0.199,
+      0.2585,
+      0.2241,
+      0.2189,
+      0.2499,
+      0.2684,
+      0.1866,
+      0.2067,
+      0.2213
+    ],
+    "epsilon": null,
+    "train_time": 1195.6
+  },
+  {
+    "model": "LeNet5",
+    "condition": "gaussian_eps1",
+    "protect": "gaussian",
+    "params": {
+      "epsilon": 1.0
+    },
+    "final_acc": 0.1545,
+    "best_acc": 0.1545,
+    "acc_curve": [
+      0.1375,
+      0.139,
+      0.1408,
+      0.1405,
+      0.149,
+      0.1481,
+      0.1506,
+      0.1503,
+      0.1474,
+      0.1503,
+      0.1499,
+      0.1501,
+      0.1501,
+      0.1517,
+      0.1545
+    ],
+    "epsilon": null,
+    "train_time": 3387.1
+  },
+  {
+    "model": "LeNet5",
+    "condition": "grad_noise0.5",
+    "protect": "gradient",
+    "params": {
+      "noise_multiplier": 0.5
+    },
+    "final_acc": 0.7102,
+    "best_acc": 0.7102,
+    "acc_curve": [
+      0.5877,
+      0.5944,
+      0.612,
+      0.6096,
+      0.6086,
+      0.624,
+      0.6173,
+      0.6362,
+      0.6577,
+      0.6812,
+      0.6657,
+      0.6992,
+      0.687,
+      0.6886,
+      0.7102
+    ],
+    "epsilon": 6.8753,
+    "train_time": 1408.8
+  },
+  {
+    "model": "LeNet5",
+    "condition": "grad_noise1.0",
+    "protect": "gradient",
+    "params": {
+      "noise_multiplier": 1.0
+    },
+    "final_acc": 0.7203,
+    "best_acc": 0.7208,
+    "acc_curve": [
+      0.5489,
+      0.5865,
+      0.6347,
+      0.6616,
+      0.662,
+      0.678,
+      0.6641,
+      0.6798,
+      0.6845,
+      0.7014,
+      0.7095,
+      0.7077,
+      0.7208,
+      0.7188,
+      0.7203
+    ],
+    "epsilon": 0.7288,
+    "train_time": 1040.6
+  },
+  {
+    "model": "LeNet5",
+    "condition": "grad_noise1.5",
+    "protect": "gradient",
+    "params": {
+      "noise_multiplier": 1.5
+    },
+    "final_acc": 0.6558,
+    "best_acc": 0.6558,
+    "acc_curve": [
+      0.5664,
+      0.5762,
+      0.5681,
+      0.5884,
+      0.5951,
+      0.6109,
+      0.6191,
+      0.6089,
+      0.6006,
+      0.6241,
+      0.6132,
+      0.6272,
+      0.6389,
+      0.6435,
+      0.6558
+    ],
+    "epsilon": 0.3911,
+    "train_time": 2293.1
+  }
+]
